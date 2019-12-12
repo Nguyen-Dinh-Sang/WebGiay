@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using AutoMapper;
-using CleanArchitectur.MVC.Models;
+﻿using AutoMapper;
+using CleanArchitecture.Application.ViewModels;
 using CleanArchitecture.Domain.Models;
 
 namespace CleanArchitecture.Application.Mapping
