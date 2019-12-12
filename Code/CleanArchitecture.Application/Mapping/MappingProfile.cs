@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Text;
 using AutoMapper;
+using CleanArchitectur.MVC.Models;
+using CleanArchitecture.Domain.Models;
 
 namespace CleanArchitecture.Application.Mapping
 {
@@ -9,8 +11,17 @@ namespace CleanArchitecture.Application.Mapping
     {
         public MappingProfile()
         {
-            //CreateMap<SaveNguoiDung, NguoiDung>();
-            //CreateMap<NguoiDung, SaveNguoiDung>();
+            CreateMap<ChiTietHoaDon, ChiTietHoaDonDTO>();
+            CreateMap<ChiTietHoaDonDTO, ChiTietHoaDon>();
+
+            CreateMap<HoaDon, HoaDonDTO>();
+            CreateMap<HoaDonDTO, HoaDon>();
+
+            CreateMap<KhachHang, KhachHangDTO>();
+            CreateMap<KhachHangDTO, KhachHang>();
+
+            CreateMap<SanPham, SanPhamDTO>();
+            CreateMap<SanPhamDTO, SanPham>();
         }
     }
 }

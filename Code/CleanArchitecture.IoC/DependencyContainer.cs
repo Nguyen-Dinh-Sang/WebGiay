@@ -2,8 +2,13 @@
 using System.Collections.Generic;
 using System.Text;
 using AutoMapper;
+using CleanArchitecture.Application.Interfaces;
 using CleanArchitecture.Application.Mapping;
+using CleanArchitecture.Application.Services;
 using CleanArchitecture.Data.Context;
+using CleanArchitecture.Data.Repository;
+using CleanArchitecture.Domain.Interfaces;
+using CleanArchitecture.Domain.Models;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace CleanArchitecture.IoC
@@ -17,10 +22,21 @@ namespace CleanArchitecture.IoC
 
             services.AddAutoMapper(typeof(MappingProfile));
 
-            // mỗi đứa một cặp
-            //services.AddScoped<IChuDeService, ChuDeService>();
-            //services.AddScoped<IChuDeRepository, ChuDeRepository>();
+            
+            services.AddScoped<IHoaDonService, HoaDonService>();
+            services.AddScoped<IHoaDonRepository, HoaDonRepository>();
 
+
+            services.AddScoped<IChiTietHoaDonService, ChiTietHoaDonService>();
+            services.AddScoped<IChiTietHoaDonRepository, ChiTietHoaDonRepository>();
+
+
+            services.AddScoped<ISanPhamService, SanPhamService>();
+            services.AddScoped<ISanPhamRepository, SanPhamRepository>();
+
+
+            services.AddScoped<IKhachHangService, KhachHangService>();
+            services.AddScoped<IKhachHangRopository, KhachHangRepository>();
         }
     }
 }
