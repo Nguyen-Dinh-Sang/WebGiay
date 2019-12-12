@@ -1050,3 +1050,5 @@ C:\Users\Admin\Desktop\WebGiay\Code\CleanArchitectur.MVC\obj\Debug\netcoreapp3.0
 C:\Users\Admin\Desktop\WebGiay\Code\CleanArchitectur.MVC\obj\Debug\netcoreapp3.0\CleanArchitectur.MVC.RazorTargetAssemblyInfo.cs
 C:\Users\Admin\Desktop\WebGiay\Code\CleanArchitectur.MVC\obj\Debug\netcoreapp3.0\CleanArchitectur.MVC.Views.pdb
 C:\Users\Admin\Desktop\WebGiay\Code\CleanArchitectur.MVC\obj\Debug\netcoreapp3.0\CleanArchitectur.MVC.csproj.CopyComplete
+C:\Users\Admin\Desktop\WebGiay\Code\CleanArchitectur.MVC\obj\Debug\netcoreapp3.0\Razor\Views\KhachHang\Login.cshtml.g.cs
+C:\Users\Admin\Desktop\WebGiay\Code\CleanArchitectur.MVC\obj\Debug\netcoreapp3.0\Razor\Views\KhachHang\Register.cshtml.g.cs

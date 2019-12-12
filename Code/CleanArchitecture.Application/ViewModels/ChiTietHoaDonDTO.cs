@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace CleanArchitectur.MVC.Models
+namespace CleanArchitecture.Application.ViewModels
 {
     public partial class ChiTietHoaDonDTO
     {

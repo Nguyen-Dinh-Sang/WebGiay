@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace CleanArchitectur.MVC.Models
+namespace CleanArchitecture.Application.ViewModels
 {
     public partial class KhachHangDTO
     {
@@ -16,7 +16,13 @@ namespace CleanArchitectur.MVC.Models
         public string MatKhau { get; set; }
         public string Sdt { get; set; }
         public string Email { get; set; }
-        public int? VaiTro { get; set; }
+        public VaiTroo VaiTro { get; set; }
+
+        public enum VaiTroo
+        {
+            NguoiDungThuong = 2,
+            NguoiQuanTri = 1
+        }
 
         public virtual ICollection<HoaDonDTO> HoaDon { get; set; }
     }
