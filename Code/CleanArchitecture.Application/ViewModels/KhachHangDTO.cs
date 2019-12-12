@@ -16,7 +16,13 @@ namespace CleanArchitecture.Application.ViewModels
         public string MatKhau { get; set; }
         public string Sdt { get; set; }
         public string Email { get; set; }
-        public int? VaiTro { get; set; }
+        public VaiTroo VaiTro { get; set; }
+
+        public enum VaiTroo
+        {
+            NguoiDungThuong = 2,
+            NguoiQuanTri = 1
+        }
 
         public virtual ICollection<HoaDonDTO> HoaDon { get; set; }
     }

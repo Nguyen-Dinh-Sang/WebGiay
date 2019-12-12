@@ -1050,8 +1050,13 @@ C:\Users\Admin\Desktop\WebGiay\Code\CleanArchitectur.MVC\obj\Debug\netcoreapp3.0
 C:\Users\Admin\Desktop\WebGiay\Code\CleanArchitectur.MVC\obj\Debug\netcoreapp3.0\CleanArchitectur.MVC.RazorTargetAssemblyInfo.cs
 C:\Users\Admin\Desktop\WebGiay\Code\CleanArchitectur.MVC\obj\Debug\netcoreapp3.0\CleanArchitectur.MVC.Views.pdb
 C:\Users\Admin\Desktop\WebGiay\Code\CleanArchitectur.MVC\obj\Debug\netcoreapp3.0\CleanArchitectur.MVC.csproj.CopyComplete
+<<<<<<< HEAD
 C:\Users\Admin\Desktop\WebGiay\Code\CleanArchitectur.MVC\obj\Debug\netcoreapp3.0\Razor\Views\SanPham\Index.cshtml.g.cs
 C:\Users\Admin\Desktop\WebGiay\Code\CleanArchitectur.MVC\obj\Debug\netcoreapp3.0\Razor\Views\SanPham\Create.cshtml.g.cs
 C:\Users\Admin\Desktop\WebGiay\Code\CleanArchitectur.MVC\obj\Debug\netcoreapp3.0\Razor\Views\SanPham\Delete.cshtml.g.cs
 C:\Users\Admin\Desktop\WebGiay\Code\CleanArchitectur.MVC\obj\Debug\netcoreapp3.0\Razor\Views\SanPham\Edit.cshtml.g.cs
 C:\Users\Admin\Desktop\WebGiay\Code\CleanArchitectur.MVC\obj\Debug\netcoreapp3.0\Razor\Views\SanPham\Details.cshtml.g.cs
+=======
+C:\Users\Admin\Desktop\WebGiay\Code\CleanArchitectur.MVC\obj\Debug\netcoreapp3.0\Razor\Views\KhachHang\Login.cshtml.g.cs
+C:\Users\Admin\Desktop\WebGiay\Code\CleanArchitectur.MVC\obj\Debug\netcoreapp3.0\Razor\Views\KhachHang\Register.cshtml.g.cs
+>>>>>>> 7e10970c51f61ce0953f7486297b3406022ed8b8
